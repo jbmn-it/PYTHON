@@ -1,22 +1,29 @@
-foods = []
-prices = []
-total = 0
-while True:
-    food = input("Enter a food to buy or (q to quit): ")
-    if food.lower() == "q":
-        break
-    else:
-        price = float(input(f"Enter the price of a {food}: tk"))
-        foods.append(food)
-        prices.append(price) 
+# foods = []
+# prices = []
+# total = 0
+# while True:
+#     food = input("Enter a food to buy or (q to quit): ")
+#     if food.lower() == "q":
+#         break
+#     else:
+#         price = float(input(f"Enter the price of a {food}: tk"))
+#         foods.append(food)
+#         prices.append(price) 
 
-print("-------Your Cart--------")
+# print("-------Your Cart--------")
 
-for food in foods:
-    print(food, end=" ")
+# for food in foods:
+#     print(food, end=" ")
 
-for price in prices:
-    total += price 
+# for price in prices:
+#     total += price 
 
-print()
-print(f"Your total price:{total} tk")    
+# print()
+# print(f"Your total price:{total} tk")    
+
+
+
+
+
+
+    
